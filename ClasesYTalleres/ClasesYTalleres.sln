@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesYTalleres.Web", "ClasesYTalleres.Web\ClasesYTalleres.Web.csproj", "{FF8E2D15-549A-4A25-BEC9-62B9FBBB230F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesYTalleres.Tests", "ClasesYTalleres.Tests\ClasesYTalleres.Tests.csproj", "{951809EA-813D-4443-A9C3-C6F5E9C968DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesYTalleres.Business", "ClasesYTalleres.Business\ClasesYTalleres.Business.csproj", "{9791EFBC-8517-4798-B177-7185FF6634DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesYTalleres.Data", "ClasesYTalleres.Data\ClasesYTalleres.Data.csproj", "{CE9E6871-9204-48BC-869C-31CCB620E505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesYTalleres.Models", "ClasesYTalleres.Models\ClasesYTalleres.Models.csproj", "{F3023032-2823-46EA-9D9F-23DE72AAEA68}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://amfadev.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ClasesYTalleres.Tests\\ClasesYTalleres.Tests.csproj
+		SccProjectName1 = ClasesYTalleres.Tests
+		SccLocalPath1 = ClasesYTalleres.Tests
+		SccProjectUniqueName2 = ClasesYTalleres.Web\\ClasesYTalleres.Web.csproj
+		SccProjectName2 = ClasesYTalleres.Web
+		SccLocalPath2 = ClasesYTalleres.Web
+		SccProjectUniqueName3 = ClasesYTalleres.Business\\ClasesYTalleres.Business.csproj
+		SccProjectName3 = ClasesYTalleres.Business
+		SccLocalPath3 = ClasesYTalleres.Business
+		SccProjectUniqueName4 = ClasesYTalleres.Data\\ClasesYTalleres.Data.csproj
+		SccProjectName4 = ClasesYTalleres.Data
+		SccLocalPath4 = ClasesYTalleres.Data
+		SccProjectUniqueName5 = ClasesYTalleres.Models\\ClasesYTalleres.Models.csproj
+		SccProjectName5 = ClasesYTalleres.Models
+		SccLocalPath5 = ClasesYTalleres.Models
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF8E2D15-549A-4A25-BEC9-62B9FBBB230F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8E2D15-549A-4A25-BEC9-62B9FBBB230F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8E2D15-549A-4A25-BEC9-62B9FBBB230F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8E2D15-549A-4A25-BEC9-62B9FBBB230F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951809EA-813D-4443-A9C3-C6F5E9C968DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951809EA-813D-4443-A9C3-C6F5E9C968DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951809EA-813D-4443-A9C3-C6F5E9C968DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951809EA-813D-4443-A9C3-C6F5E9C968DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9791EFBC-8517-4798-B177-7185FF6634DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9791EFBC-8517-4798-B177-7185FF6634DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9791EFBC-8517-4798-B177-7185FF6634DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9791EFBC-8517-4798-B177-7185FF6634DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9E6871-9204-48BC-869C-31CCB620E505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9E6871-9204-48BC-869C-31CCB620E505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9E6871-9204-48BC-869C-31CCB620E505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9E6871-9204-48BC-869C-31CCB620E505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3023032-2823-46EA-9D9F-23DE72AAEA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3023032-2823-46EA-9D9F-23DE72AAEA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3023032-2823-46EA-9D9F-23DE72AAEA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3023032-2823-46EA-9D9F-23DE72AAEA68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

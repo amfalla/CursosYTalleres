@@ -1,0 +1,106 @@
+﻿@model ClasesYTalleres.Models.CourseViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Course</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Location.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Professor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Professor.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.ImageURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.ImageURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.HasCertification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.HasCertification)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.CertificationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.CertificationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.CertificationInstitution)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.CertificationInstitution)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Course.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
