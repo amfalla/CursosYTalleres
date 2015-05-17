@@ -14,6 +14,9 @@ namespace ClasesYTalleres.Controllers.Institutions
     public class CoursesController : Controller
     {
         private CoursesService courseService = new CoursesService();
+        private CourseCategoryService courseCategoryservice = new CourseCategoryService();
+        private ProfessorService professorService = new ProfessorService();
+        private SchoolLocationService schoolLocationService = new SchoolLocationService();
 
         // GET: Courses
         public ActionResult Index()
@@ -41,7 +44,12 @@ namespace ClasesYTalleres.Controllers.Institutions
         // GET: Courses/Create
         public ActionResult Create()
         {
-            return View();
+            var model = new CourseViewModel();
+            model.CategoriesList = new SelectList(courseCategoryservice.GetCourseCategories(), "Id", "Name");
+            model.LocationsList = new SelectList(schoolLocationService.GetSchoolLocations(), "Id", "Name");
+            model.ProfessorsList = new SelectList(professorService.GetProfessors(), "Id", "Name");
+
+            return View(model);
         }
 
         // POST: Courses/Create
@@ -57,10 +65,7 @@ namespace ClasesYTalleres.Controllers.Institutions
                 return RedirectToAction("Index");
             }
 
-            var model = new CourseViewModel();
-            model.Course = course;
-
-            return View(model);
+            return View();
         }
 
         // GET: Courses/Edit/5
