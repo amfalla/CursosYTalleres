@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClasesYTalleres.Business;
+using ClasesYTalleres.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +10,14 @@ namespace ClasesYTalleres.Controllers
 {
     public class HomeController : Controller
     {
+        private CourseCategoryService courseCategoryservice = new CourseCategoryService();
+
         public ActionResult Index()
         {
-            return View();
+            var model = new HomeViewModel();
+            model.Categories.DropDownList = new SelectList(courseCategoryservice.GetCourseCategories(), "Id", "Name");
+
+            return View(model);
         }
 
         public ActionResult About()
